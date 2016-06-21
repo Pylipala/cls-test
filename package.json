@@ -1,0 +1,28 @@
+{
+  "name": "cls-test",
+  "version": "1.0.0",
+  "description": "Test if NodeJS continuation-local-storage works with various async libraries",
+  "main": "cls-mongoose.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pylipala/cls-test.git"
+  },
+  "keywords": [
+    "cls",
+    "nodejs",
+    "session",
+    "continuation-local-storage"
+  ],
+  "author": "Pylipla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pylipala/cls-test/issues"
+  },
+  "homepage": "https://github.com/Pylipala/cls-test#readme",
+  "dependencies": {
+    "mongoose": "^4.5.1"
+  }
+}
