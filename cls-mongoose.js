@@ -21,7 +21,7 @@ clsMongoose(ns);
 ns.run(function () {
     console.log('saving context value');
     ns.set('context', 'I am context value, you got it!');
-    xizang.save(function (err) {
+    xizang.save(ns.bind(function (err) {
         if (err) {
             console.log(err);
         } else {
@@ -31,6 +31,6 @@ ns.run(function () {
         var vGot = nsGot.get('context');
         console.log('reading context value');
         console.log('value got from cls:' + vGot);
-    });
+    }));
 });
 
